@@ -1,0 +1,54 @@
+.headerdiv{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1500px;
+}
+
+.logo{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logoImage{
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+}
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+.logo:hover span{
+    color: red;
+}
+
+.logo span{
+    font-size: 40px;
+    color: white;
+    font-family: fantasy;
+}
+
+.navbar{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar button{
+    width: 50px;
+}
+.navbar span{
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    margin-left: 15px;
+}
+.navbar span:hover {
+    color: red;
+}
+.nickname{
+    align-self: flex-start;
+}

@@ -1,0 +1,38 @@
+
+.aboutUsPage{
+    display: flex;
+    justify-content: space-around;
+    margin: 125px 25px 25px 25px
+
+}
+
+.aboutUsPage img{
+    width: 500px;
+    height: 500px;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.infoBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.infoBlock button{
+    font-family: fantasy;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    padding: 0;
+    border: 2px solid black;
+    color: inherit;
+    cursor: pointer;
+}
+.infoBlock button:hover{
+    background-color: red;
+}
+
+.textBlock{
+    margin-left: 25px;
+    margin-right: 15px;
+}

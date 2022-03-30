@@ -1,0 +1,75 @@
+.ApiPage{
+    width: 1440px;
+    height: auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 4fr);
+    align-items: center;
+    align-self: start;
+    margin: 50px 30px;
+
+}
+.searchInput{
+    margin-top: 150px;
+}
+
+.searchInput input{
+    width: 500px;
+    margin: 0 auto;
+    height: 25px;
+}
+.searchInput p{
+    font-size: 30px;
+    font-family: Cambria;
+    font-weight: 1000;
+}
+
+.showCatalog{
+    margin-top: 30px;
+
+}
+
+.ApiPage img{
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: solid 2px black;
+    border-radius: 7px;
+    ;
+}
+.apiItem{
+    border: solid 2px black;
+    border-radius: 7px;
+
+}
+.apiItem:hover{
+    border: solid 2px red;
+    border-radius: 7px;
+    background: rgba(255,48,50, 0.5);
+}
+
+.apiItem p{
+    margin-left: -15px;
+    font-family: Cambria;
+    font-size: 20px;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    font-family: fantasy;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    padding: 0;
+    border: 2px solid black;
+    color: inherit;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}

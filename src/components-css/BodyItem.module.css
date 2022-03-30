@@ -1,0 +1,8 @@
+.divItems{
+    display: flex;
+    flex-direction: column;
+}
+.divItems img{
+    width: 300px;
+    height: 350px;
+}
